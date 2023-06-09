@@ -5,7 +5,7 @@ mixer.music.load('assets/musictheme.ogg') #фонова музика
 fire_sound = mixer.Sound("assets/laser.wav")
 mixer.music.set_volume(0.2) #задаємо гучність
 fire_sound.set_volume(0.4)
-#mixer.music.play(-1)
+mixer.music.play(-1)
 TEXT_COLOR = (221, 245, 66)
 BTN_COLOR = (46, 89, 61)
 WIDTH, HEIGHT = 900, 600
